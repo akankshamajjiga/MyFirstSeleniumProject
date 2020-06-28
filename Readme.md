@@ -1,0 +1,1 @@
+In this project, I have learnt the basics of selenium using the scenario of automating gmail login
