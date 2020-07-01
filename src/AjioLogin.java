@@ -29,7 +29,7 @@ public class AjioLogin {
 		
 		driver.findElement(By.cssSelector(".login-form.login-modal")).click();
 		
-		driver.findElement(By.cssSelector(".username")).sendKeys("learnerChachi@gmail.com");
+		driver.findElement(By.cssSelector(".username")).sendKeys("*************");
 		
 		driver.findElement(By.cssSelector(".login-btn")).click();
 
@@ -37,7 +37,7 @@ public class AjioLogin {
 	    
 	    wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".login-form-inputs.hide-pwd-otp")));
 	    
-		driver.findElement(By.cssSelector(".login-form-inputs.hide-pwd-otp")).sendKeys("Aku@1997");
+		driver.findElement(By.cssSelector(".login-form-inputs.hide-pwd-otp")).sendKeys("*********");
 		
 		driver.findElement(By.cssSelector(".login-form-inputs.login-btn")).click();
 	
