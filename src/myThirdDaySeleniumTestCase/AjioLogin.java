@@ -1,3 +1,4 @@
+package myThirdDaySeleniumTestCase;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -35,7 +36,7 @@ public class AjioLogin {
 
 		WebDriverWait wait = new WebDriverWait(driver,20);
 	    
-	    wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".login-form-inputs.hide-pwd-otp")));
+	    wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".login-form-input.hide-pwd-otp")));
 	    
 		driver.findElement(By.cssSelector(".login-form-inputs.hide-pwd-otp")).sendKeys("*********");
 		
