@@ -21,7 +21,7 @@ public class NetFlixLogin {
 		
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.cssSelector("input[type='email']")).sendKeys("learnerChachi@gmail.com");
+		driver.findElement(By.cssSelector("input[type='email']")).sendKeys("**************");
 		
 		driver.findElement(By.cssSelector(".btn.btn-red.nmhp-cta.nmhp-cta-extra-large.btn-none.btn-custom")).click();
 	
@@ -29,7 +29,7 @@ public class NetFlixLogin {
 		
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button[type='submit']")));
 		
-		driver.findElement(By.cssSelector("input[type='password']")).sendKeys("Aku@1997");
+		driver.findElement(By.cssSelector("input[type='password']")).sendKeys("*********");
 		
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		
