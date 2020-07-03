@@ -25,7 +25,9 @@ public class JioSaavn {
 		options.setExperimentalOption("prefs", prefs);
 		
 		WebDriver driver = new ChromeDriver(options);
-	
+		
+		try {
+		
 		driver.get("https://www.jiosaavn.com/");
 		
 		driver.manage().window().maximize();
@@ -55,7 +57,17 @@ public class JioSaavn {
 	    driver.findElement(By.linkText("Play")).click();
 	    
 	    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+		}
+		
+	    catch(Exception e) {
+	    	
+	    	System.out.println(e.toString());
+	    }
+	    	
+	    	finally {
 	    
 	   System.exit(0);
 	}
+  }
 }
