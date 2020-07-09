@@ -25,47 +25,47 @@ public class FacebookRegistration {
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		driver.findElement(By.id("u_0_m")).sendKeys("thasmith");
+		driver.findElement(By.id("u_0_m")).sendKeys("**********");
 		
 		driver.findElement(By.id("u_0_o")).click();
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		driver.findElement(By.id("u_0_o")).sendKeys("vadhodara");
+		driver.findElement(By.id("u_0_o")).sendKeys("*********");
 		
 		driver.findElement(By.id("u_0_r")).click();
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		driver.findElement(By.id("u_0_r")).sendKeys("thasmith_vadhodara@gmail.com");
+		driver.findElement(By.id("u_0_r")).sendKeys("************************");
 		
 		driver.findElement(By.id("password_step_input")).click();
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		driver.findElement(By.id("password_step_input")).sendKeys("@thasmith18");
+		driver.findElement(By.id("password_step_input")).sendKeys("*********");
 		
 		driver.findElement(By.id("u_0_u")).click();
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		driver.findElement(By.id("u_0_u")).sendKeys("thasmith_vadhodara@gmail.com");
+		driver.findElement(By.id("u_0_u")).sendKeys("****************");
 		
 		driver.findElement(By.id("day")).click();
 		
-		driver.findElement(By.id("day")).sendKeys("5");
+		driver.findElement(By.id("day")).sendKeys("*");
 		
 		driver.findElement(By.id("day")).click();
 		
 		driver.findElement(By.id("month")).click();
 		
-		driver.findElement(By.id("month")).sendKeys("Aug");
+		driver.findElement(By.id("month")).sendKeys("***");
 		
 		driver.findElement(By.id("month")).click();
 		
 		driver.findElement(By.id("year")).click();
 		
-		driver.findElement(By.id("year")).sendKeys("1995");
+		driver.findElement(By.id("year")).sendKeys("****");
 		
 		driver.findElement(By.id("year")).click();
 		

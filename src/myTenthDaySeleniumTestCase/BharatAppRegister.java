@@ -27,21 +27,21 @@ public class BharatAppRegister {
 		
 		driver.findElement(By.linkText("Register")).click();
 		
-	    driver.findElement(By.cssSelector("input[type='text']")).sendKeys("chachi");
+	    driver.findElement(By.cssSelector("input[type='text']")).sendKeys("*******");
 	    
-	    driver.findElement(By.cssSelector("input[type='email']")).sendKeys("learnerChachi@gmail.com");
+	    driver.findElement(By.cssSelector("input[type='email']")).sendKeys("******************");
 	    
-	    driver.findElements(By.cssSelector("input[type='password']")).get(0).sendKeys("Aku@1997");
+	    driver.findElements(By.cssSelector("input[type='password']")).get(0).sendKeys("********");
 	    
-	    driver.findElements(By.cssSelector("input[type='password']")).get(1).sendKeys("Aku@1997");
+	    driver.findElements(By.cssSelector("input[type='password']")).get(1).sendKeys("******");
 	    
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".btn.btn-primary")));
 		
 		driver.findElement(By.cssSelector(".btn.btn-primary")).click();
 	    
-		driver.findElement(By.cssSelector("input[type='email']")).sendKeys("learnerChachi@gmail.com");
+		driver.findElement(By.cssSelector("input[type='email']")).sendKeys("****************");
 		
-		driver.findElements(By.cssSelector("input[type='password']")).get(0).sendKeys("Aku@1997");
+		driver.findElements(By.cssSelector("input[type='password']")).get(0).sendKeys("******");
 		
 		driver.findElement(By.cssSelector(".btn.btn-primary")).click();
 		
